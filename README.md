@@ -28,34 +28,34 @@ Follow these steps to set up and run the Flask file management application on yo
    First, clone the repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/flask-file-management.git
+   git clone https://github.com/film8844/Flask-File-Management.git
    cd flask-file-management
    ```
 2. **🔧 Create and activate a virtual environment:**
 
-It's a good practice to use a virtual environment to manage dependencies. Create and activate a virtual environment with the following commands:
+    It's a good practice to use a virtual environment to manage dependencies. Create and activate a virtual environment with the following commands:
 
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
 
 3. **📥 Install the dependencies::**
 
-Install the required Python packages using pip:
+    Install the required Python packages using pip:
 
-```bash
-pip install Flask Flask-Login Flask-SQLAlchemy
-```
+    ```bash
+    pip install Flask Flask-Login Flask-SQLAlchemy
+    ```
 
 4. **🗄️ Set up the database:**
 
-The database and tables will be set up automatically when you run the application for the first time. However, you can manually initialize the database by running the following commands within a Python shell:
+    The database and tables will be set up automatically when you run the application for the first time. However, you can manually initialize the database by running the following commands within a Python shell:
 
-```python
-from app import db
-db.create_all()
-```
+    ```python
+    from app import db
+    db.create_all()
+    ```
 
 ## Usage
 1. **🚀 Run the application:**
@@ -66,9 +66,9 @@ db.create_all()
 
 2. **Open your web browser and go to:**
 
-```bash
-http://127.0.0.1:8000
-```
+    ```bash
+    http://127.0.0.1:8000
+    ```
 
 3. **Register a new user and log in.**
 
